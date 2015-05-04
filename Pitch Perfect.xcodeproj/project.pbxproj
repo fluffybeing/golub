@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		662BF83C1AF7CA5E0034E6FB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 662BF83B1AF7CA5E0034E6FB /* README.md */; };
+		662BF83E1AF7CAF10034E6FB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 662BF83D1AF7CAF10034E6FB /* .gitignore */; };
 		66AF4A001AF514090001035F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AF49FF1AF514090001035F /* AppDelegate.swift */; };
 		66AF4A021AF514090001035F /* RecordSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AF4A011AF514090001035F /* RecordSoundViewController.swift */; };
 		66AF4A051AF514090001035F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66AF4A031AF514090001035F /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		662BF83B1AF7CA5E0034E6FB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		662BF83D1AF7CAF10034E6FB /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 		66AF49FA1AF514090001035F /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66AF49FE1AF514090001035F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66AF49FF1AF514090001035F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +95,8 @@
 				66AF4A061AF514090001035F /* Images.xcassets */,
 				66AF4A081AF514090001035F /* LaunchScreen.xib */,
 				66AF49FD1AF514090001035F /* Supporting Files */,
+				662BF83B1AF7CA5E0034E6FB /* README.md */,
+				662BF83D1AF7CAF10034E6FB /* .gitignore */,
 			);
 			path = "Pitch Perfect";
 			sourceTree = "<group>";
@@ -201,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662BF83E1AF7CAF10034E6FB /* .gitignore in Resources */,
 				66AF4A051AF514090001035F /* Main.storyboard in Resources */,
 				66AF4A0A1AF514090001035F /* LaunchScreen.xib in Resources */,
 				66AF4A241AF5EB870001035F /* movie_quote.mp3 in Resources */,
@@ -224,6 +231,7 @@
 			files = (
 				66AF4A261AF732340001035F /* RecordedAudio.swift in Sources */,
 				66AF4A021AF514090001035F /* RecordSoundViewController.swift in Sources */,
+				662BF83C1AF7CA5E0034E6FB /* README.md in Sources */,
 				66AF4A201AF5652E0001035F /* PlaySoundViewController.swift in Sources */,
 				66AF4A001AF514090001035F /* AppDelegate.swift in Sources */,
 			);
@@ -417,6 +425,7 @@
 				66AF4A1B1AF5140A0001035F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66AF4A1C1AF5140A0001035F /* Build configuration list for PBXNativeTarget "Pitch PerfectTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +434,7 @@
 				66AF4A1E1AF5140A0001035F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
